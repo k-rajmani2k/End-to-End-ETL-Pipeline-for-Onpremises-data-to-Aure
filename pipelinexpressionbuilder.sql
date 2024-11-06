@@ -1,2 +1,1 @@
-@{concat( SELECT  * FROM ', item().SchemaName, '.', item().
-TableName ) }
+@{concat('SELECT *FROM ', item().SchemaName, '.', item().TableName) }
